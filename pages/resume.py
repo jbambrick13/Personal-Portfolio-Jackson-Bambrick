@@ -1,5 +1,5 @@
+# Import necessary package
 import streamlit as st
-
 def show_resume():
     st.title("My Resume")
 
@@ -7,9 +7,9 @@ def show_resume():
 
     # --- Contact Information (Optional, or integrate into About Me) ---
     st.subheader("Contact Information")
-    st.write("Email: your.email@example.com")
-    st.write("LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)")
-    st.write("GitHub: [Your GitHub Profile](https://github.com/yourprofile)")
+    st.write("Email:jacksonbambrick253@gmail.com")
+    st.write("LinkedIn: (Link here)")
+    st.write("GitHub: (Link here)")
 
     st.markdown("---")
 
@@ -17,52 +17,36 @@ def show_resume():
     st.header("Education")
     with st.expander("Expand Education"):
         # University 1
-        st.subheader("University of Your Choice")
-        st.write("**Degree:** Bachelor of Science in Data Science")
-        st.write("**Graduation:** May 20XX")
-        with st.expander("Courses & Achievements"):
-            st.write("""
-            * Relevant Coursework: Data Structures, Algorithms, Machine Learning, Statistical Modeling, Database Management.
-            * Dean's List: [If applicable]
-            * GPA: [If applicable]
-            """)
-        st.markdown("---") # Separator for multiple education entries
-
-        # University 2 (if applicable)
-        # st.subheader("Another University")
-        # st.write("**Degree:** Master of Data Analytics")
-        # st.write("**Graduation:** May 20XX")
-        # with st.expander("Courses & Achievements"):
-        #     st.write("""
-        #     * Advanced topics in data science.
-        #     """)
-
+        st.header("Gettybsurg College")
+        st.write("**Degree:** Bachelor of Science in Physics with a Minor in Data Science")
+        st.write("**Graduation:** May 2026")
+        st.subheader("Courses & Achievements")
+        st.write("""
+        * Relevant Coursework: Data Structures, Algorithms, Machine Learning, Statistical Modeling, Database Management.
+        * Dean's List: [Semesters here]
+        * GPA: [Here]
+        """)
     st.markdown("---")
 
     # --- Experience Section ---
     st.header("Experience")
     with st.expander("Expand Experience"):
         # Job 1
-        st.subheader("Data Analyst - Company Name")
-        st.write("June 20XX – Present")
-        with st.expander("Responsibilities & Achievements"):
-            st.markdown("""
-            * Analyzed large datasets to identify trends and provide actionable insights, leading to a 15% improvement in...
-            * Developed and maintained SQL queries for data extraction and transformation.
-            * Collaborated with cross-functional teams to define data requirements and reporting needs.
-            * Created interactive dashboards using Tableau/Power BI to visualize key performance indicators.
-            """)
+        st.header("Data Analyst Intern - Under Canvas")
+        st.write("June 2026 – Present")
+        st.subheader("Responsibilities & Achievements")
+        st.markdown("""
+        * Responsibilities here
+        """)
         st.markdown("---")
 
-        # Job 2 (if applicable)
-        st.subheader("Intern Data Scientist - Another Company")
-        st.write("May 20XX – August 20XX")
-        with st.expander("Responsibilities & Achievements"):
-            st.markdown("""
-            * Assisted in building machine learning models for [specific task].
-            * Preprocessed and cleaned raw data, improving data quality by X%.
-            * Presented findings to stakeholders, contributing to...
-            """)
+        # Job 2
+        st.header("Intern Data Scientist - Empyrean Athletics")
+        st.write("June 2026 – Present")
+        st.subheader("Responsibilities & Achievements")
+        st.markdown("""
+        *  Responsibilities here
+        """)
         st.markdown("---")
 
     st.markdown("---")
@@ -74,16 +58,16 @@ def show_resume():
         st.write("Python (Pandas, NumPy, Scikit-learn, Streamlit), SQL, R")
 
         st.subheader("Data Analysis & Visualization:")
-        st.write("Data Cleaning, Exploratory Data Analysis, Matplotlib, Seaborn, Plotly, Tableau, Power BI")
+        st.write("Data Cleaning, Exploratory Data Analysis, Matplotlib, Seaborn, Plotly, Tableau")
 
         st.subheader("Machine Learning:")
-        st.write("Regression, Classification, Clustering, Time Series Analysis")
+        st.write("Regression, Classification, Clustering")
 
-        st.subheader("Databases:")
-        st.write("MySQL, PostgreSQL, MongoDB")
+       #st.subheader("Databases:")
+       #st.write("MySQL, PostgreSQL, MongoDB")
 
-        st.subheader("Tools & Platforms:")
-        st.write("Git, GitHub, Docker, AWS (S3, EC2 - basic understanding)")
+       #st.subheader("Tools & Platforms:")
+       #st.write("Git, GitHub, Docker, AWS (S3, EC2 - basic understanding)")
 
     st.markdown("---")
 
@@ -101,7 +85,7 @@ def show_resume():
 
     st.markdown("---")
 
-    # --- Awards & Certifications (Optional) ---
+    # --- Awards & Certifications  ---
     # st.header("Awards & Certifications")
     # with st.expander("Expand Awards & Certifications"):
     #     st.write("Certification Name - Issuing Body (Year)")

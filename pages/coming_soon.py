@@ -1,12 +1,13 @@
+# Import necessary packages
 import streamlit as st
-import os
 
-def show_sql_project():
+def show_coming_soon():
     st.title("Coming Soon: SQL Project")
 
     st.write(
         """
         Project description here
+        """
     )
 
     st.subheader("Anticipated Technologies:")

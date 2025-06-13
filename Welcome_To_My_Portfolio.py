@@ -1,13 +1,12 @@
 # Import needed packages
 import streamlit as st
-import os
 
 # Import page functions 
 from pages import about_me
 from pages import resume
 from pages import project_central
-from pages import lacrosse_project
-from pages import sql_project_coming_soon
+from pages import  lacrosse_prediction_dashboard
+from pages import coming_soon
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -35,4 +34,7 @@ elif page_selection == "Resume":
     resume.show_resume()
 elif page_selection == "Project Central":
     project_central.show_project_central()
-elif page_selection == "Lacrosse Championship Prediction & Visualization":
+elif page_selection == "Lacrosse Championship Prediction & Visualization Project":
+    lacrosse_prediction_dashboard.show_lacrosse_prediction_dashboard()
+elif page_selection == "Coming Soon: SQL Project":
+    coming_soon.show_coming_soon()

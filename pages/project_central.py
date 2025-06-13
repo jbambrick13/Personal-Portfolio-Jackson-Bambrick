@@ -1,5 +1,6 @@
+# Import necessary packages
 import streamlit as st
-import os
+# import os
 
 def show_project_central():
     st.title("Project Central")
@@ -19,20 +20,20 @@ def show_project_central():
         """
         This project involved building a predictive model to forecast the outcomes of lacrosse championship games
         and creating interactive visualizations to explore the data and model results.
-        It showcases skills in data collection, cleaning, feature engineering, model selection, and interactive dashboard development.
+        It showcases skills in data cleaning, feature engineering, probability based simulations, and interactive dashboard development.
         """
     )
 
     # Placeholder for project screenshot
-    try:
-        current_dir = os.path.dirname(__file__)
-        image_path = os.path.join(current_dir, "..", "images", "lacrosse_screenshot.png")
-        if os.path.exists(image_path):
-            st.image(image_path, caption="Lacrosse Project Screenshot", use_column_width=True)
-        else:
-            st.warning(f"Image not found at {image_path}. Please check the path.")
-    except Exception as e:
-        st.error(f"Error loading image: {e}")
+   # try:
+    #    current_dir = os.path.dirname(__file__)
+    #   image_path = os.path.join(current_dir, "..", "images", "lacrosse_screenshot.png")
+    #    if os.path.exists(image_path):
+    #        st.image(image_path, caption="Lacrosse Project Screenshot", use_column_width=True)
+    #    else:
+    #        st.warning(f"Image not found at {image_path}. Please check the path.")
+    # except Exception as e:
+    #    st.error(f"Error loading image: {e}")
 
     st.markdown(
         """
@@ -59,6 +60,5 @@ def show_project_central():
     #         st.image(coming_soon_image_path, caption="Coming Soon!", use_column_width=True)
     # except Exception as e:
     #     st.error(f"Error loading image: {e}")
-
 
     st.markdown("---")

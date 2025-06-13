@@ -1,6 +1,6 @@
 #Import necessary packages
 import streamlit as st
-import os
+#import os
 
 def show_about_me():
     st.title("About Me")
@@ -12,15 +12,15 @@ def show_about_me():
     )
 
     # Placeholder for pic of me. Remember to create images file to store all pics in
-    try:
-        current_dir = os.path.dirname(__file__)
-        image_path = os.path.join(current_dir, "..", "images", "your_picture.jpg")
-        if os.path.exists(image_path):
-            st.image(image_path, caption="This is me!", width=300)
-        else:
-            st.warning(f"Image not found at {image_path}. Please check the path.")
-    except Exception as e:
-        st.error(f"Error loading image: {e}")
+    #try:
+        #current_dir = os.path.dirname(__file__)
+        #image_path = os.path.join(current_dir, "..", "images", "your_picture.jpg")
+        #if os.path.exists(image_path):
+            #st.image(image_path, caption="This is me!", width=300)
+        #else:
+            #st.warning(f"Image not found at {image_path}. Please check the path.")
+    #except Exception as e:
+        #st.error(f"Error loading image: {e}")
 
     # Explanation of the rest of the site
     st.header("Explore My Portfolio")

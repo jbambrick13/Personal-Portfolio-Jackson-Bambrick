@@ -38,4 +38,3 @@ elif page_selection == "Lacrosse Championship Prediction & Visualization Project
     lacrosse_prediction_dashboard.show_lacrosse_prediction_dashboard()
 elif page_selection == "Coming Soon: SQL Project":
     coming_soon.show_coming_soon()
-

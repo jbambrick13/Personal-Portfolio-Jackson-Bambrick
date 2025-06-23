@@ -36,14 +36,15 @@ def show_about_me():
     # Picutre of me
     try:
         current_dir = os.path.dirname(__file__)
-        image_path = os.path.join(current_dir, "..", "Images", "This_is_me.jpg")
+        # Ensure 'Images' matches the capital 'I' of your folder
+        image_path = os.path.join(current_dir, "Images", "This_is_me.jpeg") 
         if os.path.exists(image_path):
-            st.image(image_path, caption="This is me in Copenhagen!", width=300)
+            st.image(image_path, caption="Jackson Bambrick", width=300)
         else:
             st.warning(f"Image not found at {image_path}. Please check the path.")
     except Exception as e:
         st.error(f"Error loading image: {e}")
-
+    
     # Explanation of the rest of the site
     st.header("Explore My Portfolio")
     st.write(

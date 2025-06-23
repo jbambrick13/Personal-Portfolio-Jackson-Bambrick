@@ -37,7 +37,7 @@ def show_about_me():
     try:
         current_dir = os.path.dirname(__file__)
         # Ensure 'Images' matches the capital 'I' of your folder
-        image_path = os.path.join(current_dir, "Images", "This_is_me.jpeg") 
+        image_path = os.path.join(current_dir, "Images", "This_is_me.jpg") 
         if os.path.exists(image_path):
             st.image(image_path, caption="Jackson Bambrick", width=300)
         else:

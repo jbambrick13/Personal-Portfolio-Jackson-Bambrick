@@ -13,7 +13,7 @@ def show_about_me():
         """ 
         )
     st.header("More About Me Here!") 
-    with st.expander("Jackson Bambrick???"):
+    with st.expander("Expand to learn more about me"):
         st.write(
             """
             I grew up in a small city, Edgewood, about an hour south of Seattle in Washington State. My younger brother Joey and I spent most of our days outside, playing sports, building forts, and taking advantage of the beautiful 

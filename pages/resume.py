@@ -102,5 +102,5 @@ def show_resume():
     st.header("Awards & Activities")
     with st.expander("Expand Awards & Certifications"):
         st.write("Employee of the Month, July 2022, Safeway Supermarket")
-        st.write("Sigma Pi Sigma, Physics National Honor Society - Organization (Year)")
-        st.write("Award Name - Organization (Year)")
+        st.write("Sigma Pi Sigma, Physics National Honor Society")
+        st.write("Chi Alpha Sigma National Athletic Honor Society ")

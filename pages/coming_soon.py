@@ -6,7 +6,8 @@ def show_coming_soon():
 
     st.write(
         """
-        Project description here
+        This project is currently in development and will focus on advanced SQL techniques, database design, and data manipulation. 
+        It will involve scraping publicly available satellite data and using SQL to allow for complex  queries. 
         """
     )
 

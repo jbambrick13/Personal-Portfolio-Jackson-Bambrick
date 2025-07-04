@@ -26,7 +26,8 @@ def show_project_central():
 
     st.markdown(
         """
-        * **Technologies Used:** Python (Pandas, Scikit-learn, Streamlit, Plotly) and Github (Version Control)
+        * **Technologies Used:** Python (Pandas, Numpy, and Scikit-learn), Visualitzation Tools (Streamlit and Plotly) and Github (Version Control)
+        * **Skills and Concepts Applied:** Probabilistic Modeling and Simulation, Creating Interactive Visualization Dashboards,  Algorithmic Thinking, and Practical Data Handling.
         * **View Project Details:** For an in-depth look at this project, please visit the **Lacrosse Championship Prediction & Visualization** page from the navigation menu.
         * **GitHub Repository:** https://github.com/jbambrick13/NCAA-D3-Tournaments-Sim-Visualization
         """

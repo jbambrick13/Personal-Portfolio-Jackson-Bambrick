@@ -64,27 +64,33 @@ def show_resume():
 
     st.markdown("---")
 
-    # --- Skills Section ---
+    # Skills Section
     st.header("Skills")
     with st.expander("Expand Skills"):
         st.subheader("Programming Languages:")
-        st.write("Python (Pandas, NumPy, Scikit-learn, Streamlit), SQL, R")
+        st.write("Python (Pandas, NumPy, Scikit-learn, Seaborn), SQL, R")
+        
+        st.subheader("Data Analysis and Statistics")
+        st.write("Descriptive and Inferential Statistics, Experimental Design, Hypothesis Testing, A/B Testing")
+        
+        st.subheader("Modeling and Mathematics")
+        st.write("Probability theory, Simulations, Numerical Methods, Optimization, Linear ALgebra")
 
-        st.subheader("Data Analysis & Visualization:")
-        st.write("Data Cleaning, Exploratory Data Analysis, Matplotlib, Seaborn, Plotly, Tableau")
+        st.subheader("Visualization:")
+        st.write("Seaborn, Plotly, Tableau")
 
         st.subheader("Machine Learning:")
-        st.write("Regression, Classification, Clustering")
+        st.write("Regression, Classification, Clustering, Model Evaluation")
 
-       #st.subheader("Databases:")
-       #st.write("MySQL, PostgreSQL, MongoDB")
+        st.subheader("Tools and Technologies")
+        st.write("Git/Github (Version control and collaboration), Streamlit(Deployment and storytelling), Excel(Data handling and storage)")
 
-       #st.subheader("Tools & Platforms:")
-       #st.write("Git, GitHub, Docker, AWS (S3, EC2 - basic understanding)")
+        st.subheader("Soft Skills")
+        st.write("Datastorytelling, Algorithmic thinking, Documentation habits, Attention to detial, Problem solving, ")
 
     st.markdown("---")
 
-    # --- Projects Section (Briefly mention, link to Project Central) ---
+    # Projects Section (Briefly mention, direct to Project Central)
     st.header("Projects")
     with st.expander("Expand Projects Summary"):
         st.write(
@@ -92,13 +98,13 @@ def show_resume():
             For a detailed look at my projects, please visit the **Project Central** page.
             Highlights include:
             * **Lacrosse Championship Prediction & Visualization:** A comprehensive project demonstrating probability based modeling using Python and interactive data visualization using Streamlit.
-            * **Coming Soon! Satellite Seacrh: ** A project focused on using SQL and Tableau to analyze satellite location data.
+            * **Coming Soon! Satellite Search:** A project focused on using SQL and Tableau to analyze satellite location data.
             """
         )
 
     st.markdown("---")
 
-     # --- Awards & Certifications  ---
+     # Awards Section
     st.header("Awards & Activities")
     with st.expander("Expand Awards & Certifications"):
         st.write("Employee of the Month, July 2022, Safeway Supermarket")

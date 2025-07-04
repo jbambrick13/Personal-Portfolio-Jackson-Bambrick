@@ -8,13 +8,13 @@ from pages import project_central
 from pages import lacrosse_prediction_dashboard
 from pages import coming_soon
 
-# --- Page Configuration ---
+# Page Configuration 
 st.set_page_config(
     page_title="Jackson Bambrick - Personal Portfolio",
     layout="wide",
 )
 
-# --- Page Selection ---
+# Page Selection 
 st.sidebar.title("Select Page")
 page_selection = st.sidebar.selectbox(
     "Go to",
@@ -27,7 +27,7 @@ page_selection = st.sidebar.selectbox(
     ]
 )
 
-# --- Display Selected Page ---
+# Display Selected Page
 if page_selection == "About Me":
     about_me.show_about_me()
 elif page_selection == "Resume":

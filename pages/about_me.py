@@ -2,6 +2,7 @@
 import streamlit as st
 import os
 
+# General descirpiton
 def show_about_me():
     st.title("About Me")
 
@@ -13,6 +14,7 @@ def show_about_me():
         """ 
         )
     st.header("More About Me Here!") 
+    # Detailed background
     with st.expander("Expand to learn more about me"):
         st.write(
             """
@@ -36,7 +38,7 @@ def show_about_me():
     # Picutre of me
     try:
         current_dir = os.path.dirname(__file__)
-        # Ensure 'Images' matches the capital 'I' of your folder
+        # Ensure iamge file is present
         image_path = os.path.join(current_dir, "Images", "This_is_me.jpg") 
         if os.path.exists(image_path):
             st.image(image_path, caption="Jackson Bambrick", width=300)

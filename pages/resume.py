@@ -14,20 +14,6 @@ def show_resume():
 
     st.markdown("---")
 
-    # Education Section
-    st.header("Education")
-    with st.expander("Expand Education"):
-        st.header("Gettybsurg College")
-        st.write("**Degree:** Bachelor of Science in Physics with a Minor in Data Science")
-        st.write("**Graduation:** May 2026")
-        st.subheader("Courses & Achievements")
-        st.write("""
-        * Relevant Coursework: Data Structures, Algorithms, Machine Learning, Statistical Modeling, Database Management.
-        * Dean's List: Fall ’22, Spring ’23, Fall ‘24
-        * GPA: 3.72
-        """)
-    st.markdown("---")
-
     # Experience Section
     st.header("Experience")
     with st.expander("Expand Experience"):
@@ -95,6 +81,20 @@ def show_resume():
         st.subheader("Soft Skills")
         st.write("Datastorytelling, Algorithmic thinking, Documentation habits, Attention to detial, Problem solving, ")
 
+    st.markdown("---")
+
+     # Education Section
+    st.header("Education")
+    with st.expander("Expand Education"):
+        st.header("Gettybsurg College")
+        st.write("**Degree:** Bachelor of Science in Physics with a Minor in Data Science")
+        st.write("**Graduation:** May 2026")
+        st.subheader("Courses & Achievements")
+        st.write("""
+        * Relevant Coursework: Data Structures, Algorithms, Machine Learning, Statistical Modeling, Database Management.
+        * Dean's List: Fall ’22, Spring ’23, Fall ‘24
+        * GPA: 3.72
+        """)
     st.markdown("---")
 
     # Projects Section (Briefly mention, direct to Project Central)

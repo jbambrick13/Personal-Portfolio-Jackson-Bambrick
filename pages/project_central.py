@@ -12,7 +12,7 @@ def show_project_central():
 
     st.markdown("---")
 
-    # --- Project 1: Lacrosse Championship Prediction & Visualization ---
+    # Project 1: Lacrosse Championship Prediction & Visualization
     st.header("Lacrosse Championship Prediction & Visualization")
 
     st.write(
@@ -35,7 +35,7 @@ def show_project_central():
 
     st.markdown("---")
 
-    # --- Coming Soon: SQL Project Placeholder ---
+    # Coming Soon: SQL Project Placeholder
     st.header("Coming Soon: SQL Project")
     st.write(
         """

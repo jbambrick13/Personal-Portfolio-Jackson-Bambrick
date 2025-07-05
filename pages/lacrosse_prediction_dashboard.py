@@ -3,7 +3,7 @@ import streamlit as st
 
 def show_lacrosse_prediction_dashboard():
     st.title("Lacrosse Championship Prediction & Visualization")
-
+    # General description
     st.write(
         """
         The goal of this project was to build a predictive model to forecast the outcomes of lacrosse championship games. 
@@ -16,8 +16,13 @@ def show_lacrosse_prediction_dashboard():
         """
     )
 
-    st.markdown("---")
+    # Links to Dashboard and Repo
+    st.subheader("Project Resources:")
+    st.write("Link to Live Demo: https://jbambrick13-ncaa-d3-tour-tournament-prediction-dashboard-rxnd3f.streamlit.app/") 
+    st.write("Link to Lacrosse Project GitHub Repository: https://github.com/jbambrick13/NCAA-D3-Tournaments-Sim-Visualization") 
 
+    st.markdown("---")
+    # Methodology Overview
     st.header("Project Overview & Methodology")
     st.write(
         """
@@ -25,18 +30,8 @@ def show_lacrosse_prediction_dashboard():
         from cleaning data all the way through to visualizing results from probabliity based simulations! A more detailed
         look at my methodology is available below.
         """
-    
     )
-    st.markdown("---")
-    
-    st.write(
-        """
-        Beyond just predictions, a significant part of this project involved creating interactive visualizations
-        using Plotly and Streamlit. These visualizations allow users to explore the predictions and view the
-        probability distributions of each team's chances of advancing through the tournament and winning their
-        championship.
-        """
-    )
+    # Detailed Methodology
     with st.expander("Detailed Methodology Here"):
         st.write(
             """
@@ -64,7 +59,7 @@ def show_lacrosse_prediction_dashboard():
         )
 
     st.markdown("---")
-
+    # Skills Section
     st.header("Skills Practiced")
     st.write(
         """
@@ -82,7 +77,5 @@ def show_lacrosse_prediction_dashboard():
     )
 
     st.markdown("---")
-
-    st.subheader("Project Resources:")
-    st.write("Link to Lacrosse Project GitHub Repository: https://github.com/jbambrick13/NCAA-D3-Tournaments-Sim-Visualization") 
-    st.write("Link to Live Demo: https://jbambrick13-ncaa-d3-tour-tournament-prediction-dashboard-rxnd3f.streamlit.app/") 
+    # Project Resources
+    

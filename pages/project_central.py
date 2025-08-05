@@ -35,12 +35,23 @@ def show_project_central():
 
     st.markdown("---")
 
-    # Coming Soon: SQL Project Placeholder
-    st.header("Coming Soon: SQL Project")
+    # Project 2: Weather Project
+    st.header("Automated Weather Data Pipeline and Dashboard")
     st.write(
         """
-        A new project focusing on advanced SQL queries, database design, and data scraping.
+        This project is a full-stack data pipeline that automatically collected real-time weather data,
+        built a historical dataset over time, and presents the findings in an interactive dashboard.
+        A Python script fetches data from the OpenWeatherMap API, loads it into a PostgreSQL database, 
+        and a Tableau dashboard connects directly to this data source for visualization. The project
+        highlights skills in data engineering, ETL automation, database management, and business intelligence
         """
     )
 
-    st.markdown("---")
+    st.markdown(
+        """
+        * **Technologies Used:** Python (Pandas, Numpy, requests, and psycopg2), PostgreSQL(Data Storage and Management), Visualization Tools (Tableau Desktop and Tableau Public) and Github (Version Control)
+        * **Skills and Concepts Applied:** Data Extraction, Transformation, and Loading (ETL), Time Series Analysis, and Data Visualization.
+        * **View Project Details:** For an in-depth look at this project, please visit the **Weather Project** page from the navigation menu.
+        * **GitHub Repository:** https://github.com/jbambrick13/Weather-Project/tree/main
+        """
+    )

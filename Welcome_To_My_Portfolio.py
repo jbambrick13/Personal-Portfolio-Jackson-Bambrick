@@ -6,7 +6,7 @@ from pages import about_me
 from pages import resume
 from pages import project_central
 from pages import lacrosse_prediction_dashboard
-from pages import coming_soon
+from pages import weather_project
 
 # Page Configuration 
 st.set_page_config(
@@ -37,5 +37,5 @@ elif page_selection == "Project Central":
 elif page_selection == "Lacrosse Championship Prediction & Visualization Project":
     lacrosse_prediction_dashboard.show_lacrosse_prediction_dashboard()
 elif page_selection == "Coming Soon: SQL Project":
-    coming_soon.show_coming_soon()
+    weather_project.show_weather_project()
 

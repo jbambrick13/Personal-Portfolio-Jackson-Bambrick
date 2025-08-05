@@ -36,6 +36,6 @@ elif page_selection == "Project Central":
     project_central.show_project_central()
 elif page_selection == "Lacrosse Championship Prediction & Visualization Project":
     lacrosse_prediction_dashboard.show_lacrosse_prediction_dashboard()
-elif page_selection == "Coming Soon: SQL Project":
+elif page_selection == "Automated Weather Data Pipeline and Dashboard":
     weather_project.show_weather_project()
 

@@ -6,7 +6,7 @@ from pages import about_me
 from pages import resume
 from pages import project_central
 from pages import lacrosse_prediction_dashboard
-from pages import coming_soon
+from pages import weather_project
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -23,7 +23,7 @@ page_selection = st.sidebar.selectbox(
         "Resume",
         "Project Central",
         "Lacrosse Championship Prediction & Visualization Project",
-        "Coming Soon: SQL Project"
+        "Automated Weather Data Pipeline and Dashboard"
     ]
 )
 
@@ -36,5 +36,5 @@ elif page_selection == "Project Central":
     project_central.show_project_central()
 elif page_selection == "Lacrosse Championship Prediction & Visualization Project":
     lacrosse_prediction_dashboard.show_lacrosse_prediction_dashboard()
-elif page_selection == "Coming Soon: SQL Project":
-    coming_soon.show_coming_soon()
+elif page_selection == "Automated Weather Data Pipeline and Dashboard":
+    weather_project.show_weather_project()

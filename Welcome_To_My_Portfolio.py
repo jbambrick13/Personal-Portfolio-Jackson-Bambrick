@@ -23,7 +23,7 @@ page_selection = st.sidebar.selectbox(
         "Resume",
         "Project Central",
         "Lacrosse Championship Prediction & Visualization Project",
-        "Coming Soon: SQL Project"
+        "Automated Weather Data Pipeline and Dashboard"
     ]
 )
 

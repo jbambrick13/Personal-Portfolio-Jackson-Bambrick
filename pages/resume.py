@@ -38,7 +38,6 @@ def show_resume():
         st.header("Data Analyst Intern - Under Canvas")
         st.write("May 2025 – August 2025")
         st.subheader("Responsibilities & Achievements")
-        st.markdown("---")
         st.markdown("""
         * Cleaned and aggregated complex datasets including payroll data for over 200 employees across 12 locations. 
         * Performed statistical analysis to develop data-backed job postings for 49 positions.

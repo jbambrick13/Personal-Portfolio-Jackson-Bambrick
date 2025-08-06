@@ -57,8 +57,7 @@ def show_about_me():
         * **Resume:** An interactive and collapsible version of my resume, detailing my education, work experience, and technical skills.
         * **Project Central:** A hub for all my data related projects, featuring descriptions and screenshots.
         * **Lacrosse Championship Prediction & Visualization:** A deep dive into one of my key projects, including the methodology, visualizations, and lessons learned.
-        * **Coming Soon: SQL Project:** A sneak peek at an upcoming project that will demonstrate my SQL proficiency.
-
+        * **Automated Weather Data Pipeline and Dashboard:** Automated collection, analysis, and visualization of  weather data, using PostgreSQL and Tableau.
         Feel free to navigate through the different sections using the dropdown menu on the left sidebar.
         I hope you enjoy exploring my work, please reach out with any questions or curiosities !
         """

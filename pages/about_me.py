@@ -58,6 +58,7 @@ def show_about_me():
         * **Project Central:** A hub for all my data related projects, featuring descriptions and screenshots.
         * **Lacrosse Championship Prediction & Visualization:** A deep dive into one of my key projects, including the methodology, visualizations, and lessons learned.
         * **Automated Weather Data Pipeline and Dashboard:** Automated collection, analysis, and visualization of  weather data, using PostgreSQL and Tableau.
+        
         Feel free to navigate through the different sections using the dropdown menu on the left sidebar.
         I hope you enjoy exploring my work, please reach out with any questions or curiosities !
         """

@@ -8,7 +8,7 @@ def show_resume():
 
     # Contact Information
     st.subheader("Contact Information")
-    st.write("Email:jacksonbambrick253@gmail.com")
+    st.write("Email: jacksonbambrick253@gmail.com")
     st.write("LinkedIn: www.linkedin.com/in/jackson-bambrick-bb1466250")
     st.write("GitHub: https://github.com/jbambrick13")
 
@@ -18,32 +18,38 @@ def show_resume():
     st.header("Experience")
     with st.expander("Expand Experience"):
         # Job 1
-        st.header("Data Analyst Intern - Under Canvas")
-        st.write("May 2025 – Present")
-        st.subheader("Responsibilities & Achievements")
-        st.markdown("""
-        * Engaging in a critical data analytics project focused on promoting pay equity within Under Canvas's hospitality operations. 
-        * Analyzing payroll data for 61 employees across 7 locations in order to identify discrepencies between base wages and true earning potentials.
-        * Gaining hands-on experience in data manipulation, visualization, and presenting actionable insights directly to the full HR team.
-        """)
-        st.markdown("---")
-
-        # Job 2
         st.header("Intern Data Scientist - Empyrean Athletics")
         st.write("June 2025 – Present")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        * Developing a novel model to provide NIL valuations to over 200 high-school basketball players.
-        * Structuring and overseeing the entire lifecycle of the NIL valuation model, leading the process from initial 
-        algorithm design and data collection strategies to overseeing the deployment of the model to the Empyrean App.
-        * Automted data collection from diverse sources by developing web scrapers to gather sports statistics data 
-        and utilizing API techniques to gather social media data.
+        * Developing a novel model to provide NIL valuations to over 200 high-school basketball student-athletes for them to access via a 
+        mobile application.
+        * Architecting and building a serverless data pipeline on Google Cloud Platform to process, clean, and analyze player performance data, 
+        feeding a real-time valuation engine.
+        * Developing a Python-based Cloud Function that uses Firestore event-driven triggers to perform targeted, real-time valuation calculations.
+        * Implementing robust data cleaning and transformation scripts using the Pandas library to handle thousands of inconsistent raw data 
+        points from user surveys
+         and external APIs, ensuring data integrity for the core application.
+        * Managing all code and files using Git/GitHub, collaborating with the application development team to define data schemas 
+        and integrate the backend service.
+        """)
+
+        # Job 2
+        st.header("Data Analyst Intern - Under Canvas")
+        st.write("May 2025 – August 2025")
+        st.subheader("Responsibilities & Achievements")
+        st.markdown("---")
+        st.markdown("""
+        * Cleaned and aggregated complex datasets including payroll data for over 200 employees across 12 locations. 
+        * Performed statistical analysis to develop data-backed job postings for 49 positions.
+        * Presented informative visuals and a strategic recommendation to HR and Hospitality leadership, providing actionable language for job postings 
+        designed to attract top talent.
         """)
         st.markdown("---")
 
         # Job 3
         st.header("Market Research Associate - Nike Xcelerate Lacrosse")
-        st.write("Fall/Winter 2024")
+        st.write("October 2024 - January 2025")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
         * Conducted comprehensive online research to collect data on 114 local lacrosse programs and over 300 key contacts.
@@ -61,10 +67,10 @@ def show_resume():
         st.write("Python (Pandas, NumPy, Scikit-learn, Seaborn), SQL, R")
         
         st.subheader("Data Analysis and Statistics")
-        st.write("Descriptive and Inferential Statistics, Experimental Design, Hypothesis Testing, A/B Testing")
+        st.write("Descriptive and Inferential Statistics, Time Series Analysis, Experimental Design, Hypothesis Testing, A/B Testing")
         
         st.subheader("Modeling and Mathematics")
-        st.write("Probability Theory, Simulations, Numerical Methods, Optimization, Linear ALgebra")
+        st.write("Probability Theory, Simulations, Numerical Methods, Optimization, Differential Equations, Linear ALgebra")
 
         st.subheader("Visualization:")
         st.write("Seaborn, Plotly, Tableau")
@@ -105,7 +111,7 @@ def show_resume():
             For a detailed look at my projects, please visit the **Project Central** page.
             Highlights include:
             * **Lacrosse Championship Prediction & Visualization:** A comprehensive project demonstrating probability based modeling using Python and interactive data visualization using Streamlit.
-            * **Coming Soon! Satellite Search:** A project focused on using SQL and Tableau to analyze satellite location data.
+            * **Automated Weather Data Pipeline and Dashboard:** A project showcasing automated data collection, ETL processes, and real-time data visualization using Python, PostgreSQL, and Tableau.
             """
         )
 
@@ -114,6 +120,9 @@ def show_resume():
      # Awards Section
     st.header("Awards & Activities")
     with st.expander("Expand Awards & Certifications"):
-        st.write("Employee of the Month, July 2022, Safeway Supermarket")
-        st.write("Sigma Pi Sigma, Physics National Honor Society")
-        st.write("Chi Alpha Sigma National Athletic Honor Society ")
+        st.write("""
+        * UC Davis SQL for Data Science Certificate, August 2025 (https://www.coursera.org/account/accomplishments/certificate/Q5H9HSWWFBVB)
+        * Employee of the Month, July 2022, Safeway Supermarket
+        * Sigma Pi Sigma, Physics National Honor Society
+        * Chi Alpha Sigma, National Athletic Honor Society
+        """)

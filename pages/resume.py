@@ -72,7 +72,7 @@ def show_resume():
         st.write("Python & SQL")
         
         st.subheader("Data Engineering & Cloud")
-        st.write("Google Cloud Functions, Firestore, PostgreSQL, ETL Pipeline Design, API Integration, Web Scraping, Agent Deployment")
+        st.write("Google Cloud Functions, Firestore, PostgreSQL, ETL Pipeline Design, API Integration, Web Scraping, Agent Deployment, Git/Github")
         
         st.subheader("Data Science & ML")
         st.write("Pandas, NumPy, Scikit-learn, Regression, Classification, Clustering, Hypothesis Testing, A/B Testing, Descriptive & Inferential Statistics, Experimental Design")
@@ -80,14 +80,11 @@ def show_resume():
         st.subheader("Visualization & BI:")
         st.write("Tableau (Desktop & Public), Streamlit, Plotly, Seaborn, Matplotlib")
 
-        st.subheader("Machine Learning:")
-        st.write("Regression, Classification, Clustering, Model Evaluation")
-
-        st.subheader("Data Collection:")
-        st.write("Web Scraping, API Usage, Comprehensive Research Methods")
+        st.subheader("Quantitative Analysis & Skills:")
+        st.write("Monte Carlo Simulations, Hypothesis Testing, A/B Testing, Descriptive & Inferential Statistics, Statistical Normalization, Experimental Design")
 
         st.subheader("Tools and Frameworks")
-        st.write("Git/Github (Version control and collaboration), McStas Simulations (3D Modeling & particle simulations), Streamlit(Deployment and storytelling), Excel(Data handling and storage)")
+        st.write("McStas Simulations (3D Modeling & particle simulations), Streamlit(Deployment and storytelling), Excel(Data handling and storage)")
 
         st.subheader("Soft Skills")
         st.write("Datastorytelling, Algorithmic thinking, Documentation habits, Attention to detial, Problem solving, ")

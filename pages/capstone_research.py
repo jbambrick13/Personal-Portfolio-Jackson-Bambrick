@@ -97,16 +97,20 @@ def show_capstone_research():
     except Exception as e:
         st.error(f"Error loading image: {e}")
 
+
     st.markdown("---")
     # Thanks Section
     st.header("Gratitudes and Acknowledgements")
     st.write(
         """
-        This project was a fantastic learning experience, encompassing many aspects of the data science process.
-        Some key takeaways include:
+        This research was an amazing opportunity that I am incredibly grateful for. I am glad to
+        have had the chance to contribute to meaningful work in the field of physics, and I 
+        want to thank the following people for their support and guidance throughout the project:
 
-        * **Version Control:** Using GitHub for version control helped me keep track of changes
-        * **Data Cleaning:** The initial dataset required significant cleaning and preprocessing to be usable.
+        * **Professor Bret Crawford** Chair of the Physics Department at Gettysburg College and my research advisor.
+        * **Dipto Provast, G'25:** Prior student researcher whose foundational work greatly aided my project.
+        * **The Neutron Spin Rotation Collaboration:** For their pioneering research and for providing the experimental framework that
+            guided my simulations.
         """
     )
 

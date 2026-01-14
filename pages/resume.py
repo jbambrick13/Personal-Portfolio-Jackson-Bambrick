@@ -18,31 +18,23 @@ def show_resume():
     st.header("Experience")
     with st.expander("Expand Experience"):
         # Job 1
-        st.header("Intern Data Scientist - Empyrean Athletics")
+        st.header("Data Engineer - Empyrean Athletics")
         st.write("June 2025 – Present")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        * Developing a novel model to provide NIL valuations to over 200 high-school basketball student-athletes for them to access via a 
-        mobile application.
-        * Architecting and building a serverless data pipeline on Google Cloud Platform to process, clean, and analyze player performance data, 
-        feeding a real-time valuation engine.
-        * Developing a Python-based Cloud Function that uses Firestore event-driven triggers to perform targeted, real-time valuation calculations.
-        * Implementing robust data cleaning and transformation scripts using the Pandas library to handle thousands of inconsistent raw data 
-        points from user surveys
-         and external APIs, ensuring data integrity for the core application.
-        * Managing all code and files using Git/GitHub, collaborating with the application development team to define data schemas 
-        and integrate the backend service.
+        * Architected and deployed an automated end-to-end data platform using Python, Google Cloud Functions, and Firestore, integrating custom ETL pipelines with a statistical scoring algorithm to transform raw API/survey data into predictive NIL financial valuations for 200+ student athletes.
+        * Designed a robust data scraping engine using Python and Pandas that optimized Apify agent usage via batch processing and smart filtering for 1500+ data points, reducing manual data collection efforts by 95% while maintaining strict schema compatibility with existing business reporting tools.
+        * Contributing to the training and deployment of a novel NIL chatbot by curating multi-source datasets and refining LLM performance, directly supporting product demonstrations that secured customer buy-in.
         """)
 
         # Job 2
-        st.header("Data Analyst Intern - Under Canvas")
+        st.header("Data Analytics Intern - Under Canvas")
         st.write("May 2025 – August 2025")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
         * Cleaned and aggregated complex datasets including payroll data for over 200 employees across 12 locations. 
-        * Performed statistical analysis to develop data-backed job postings for 49 positions.
-        * Presented informative visuals and a strategic recommendation to HR and Hospitality leadership, providing actionable language for job postings 
-        designed to attract top talent.
+	    * Performed statistical analysis to develop data-backed job postings for 49 positions.
+	    * Presented informative visuals and strategic recommendations to HR and Hospitality leadership, providing actionable language for job postings designed to attract top talent.
         """)
         st.markdown("---")
 
@@ -51,9 +43,17 @@ def show_resume():
         st.write("October 2024 - January 2025")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        * Conducted comprehensive online research to collect data on 114 local lacrosse programs and over 300 key contacts.
-        * Handled accurate compiling and input of thousands of data points, ensuring dataset integrity and accuracy.
-        * Met 100% of deadlines and productivity goals while maintaining high-quality standards.
+        * Managed large-scale data acquisition and database integrity for Nike Xcelerate, sourcing and normalizing thousands of data points on regional programs to build a high-accuracy market intelligence database. 
+        """)
+        st.markdown("---")
+        
+        # Job 4
+        st.header("Youth Lacrosse Master Official")
+        st.write("February 2018 - August 2022")
+        st.subheader("Responsibilities & Achievements")
+        st.markdown("""
+        * Oversaw the training and evaluation of more than 100 new officials.
+	    * Ensured the safety of players and fair enforcement of league regulations in high pressure environments, while settling disputes between coaches, parents, and other officials.
         """)
         st.markdown("---")
 
@@ -63,16 +63,16 @@ def show_resume():
     st.header("Skills")
     with st.expander("Expand Skills"):
         st.subheader("Programming Languages:")
-        st.write("Python (Pandas, NumPy, Scikit-learn, Seaborn), SQL, R")
+        st.write("Python & SQL")
         
-        st.subheader("Data Analysis and Statistics")
-        st.write("Descriptive and Inferential Statistics, Time Series Analysis, Experimental Design, Hypothesis Testing, A/B Testing")
+        st.subheader("Data Engineering & Cloud")
+        st.write("Google Cloud Functions, Firestore, PostgreSQL, ETL Pipeline Design, API Integration, Web Scraping, Agent Deployment")
         
-        st.subheader("Modeling and Mathematics")
-        st.write("Probability Theory, Simulations, Numerical Methods, Optimization, Differential Equations, Linear ALgebra")
+        st.subheader("Data Science & ML")
+        st.write("Pandas, NumPy, Scikit-learn, Regression, Classification, Clustering, Hypothesis Testing, A/B Testing, Descriptive & Inferential Statistics, Experimental Design")
 
-        st.subheader("Visualization:")
-        st.write("Seaborn, Plotly, Tableau")
+        st.subheader("Visualization & BI:")
+        st.write("Tableau (Desktop & Public), Streamlit, Plotly, Seaborn, Matplotlib")
 
         st.subheader("Machine Learning:")
         st.write("Regression, Classification, Clustering, Model Evaluation")
@@ -80,8 +80,8 @@ def show_resume():
         st.subheader("Data Collection:")
         st.write("Web Scraping, API Usage, Comprehensive Research Methods")
 
-        st.subheader("Tools and Technologies")
-        st.write("Git/Github (Version control and collaboration), Streamlit(Deployment and storytelling), Excel(Data handling and storage)")
+        st.subheader("Tools and Frameworks")
+        st.write("Git/Github (Version control and collaboration), McStas Simulations (3D Modeling & particle simulations), Streamlit(Deployment and storytelling), Excel(Data handling and storage)")
 
         st.subheader("Soft Skills")
         st.write("Datastorytelling, Algorithmic thinking, Documentation habits, Attention to detial, Problem solving, ")
@@ -94,11 +94,13 @@ def show_resume():
         st.header("Gettybsurg College")
         st.write("**Degree:** Bachelor of Science in Physics with a Minor in Data Science")
         st.write("**Graduation:** May 2026")
+        st.subheader("Gettysburg Men's Lacrosse")
+        st.write("Student-athlete demonstrating discipline, leadership, and teamwork while balancing a 20+ hour weekly commitment with a rigorous academic workload")
         st.subheader("Courses & Achievements")
         st.write("""
-        * Relevant Coursework: Data Structures, Algorithms, Machine Learning, Statistical Modeling, Database Management.
+        * Relevant Coursework: Capstone Research (Complex 3D Particle Simulations) Linear Algebra, Differential Equations, Statistical and Numerical Methods, Data Structures, Experimental Design
         * Dean's List: Fall ’22, Spring ’23, Fall ‘24
-        * GPA: 3.72
+        * GPA: 3.75
         """)
     st.markdown("---")
 
@@ -121,7 +123,7 @@ def show_resume():
     with st.expander("Expand Awards & Certifications"):
         st.write("""
         * UC Davis SQL for Data Science Certificate, August 2025 (https://www.coursera.org/account/accomplishments/certificate/Q5H9HSWWFBVB)
-        * Employee of the Month, July 2022, Safeway Supermarket
         * Sigma Pi Sigma, Physics National Honor Society
         * Chi Alpha Sigma, National Athletic Honor Society
+        * Employee of the Month, July 2022, Safeway Supermarket
         """)

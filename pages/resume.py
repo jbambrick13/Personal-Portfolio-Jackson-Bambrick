@@ -22,9 +22,9 @@ def show_resume():
         st.write("June 2025 – Present")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        ** Architected and deployed an automated end-to-end data platform using Python, Google Cloud Functions, and Firestore, integrating custom ETL pipelines with a statistical scoring algorithm to transform raw API/survey data into predictive NIL financial valuations for 200+ student athletes.
-        ** Designed a robust data scraping engine using Python and Pandas that optimized Apify agent usage via batch processing and smart filtering for 1500+ data points, reducing manual data collection efforts by 95% while maintaining strict schema compatibility with existing business reporting tools.
-        ** Contributing to the training and deployment of a novel NIL chatbot by curating multi-source datasets and refining LLM performance, directly supporting product demonstrations that secured customer buy-in.
+        - Architected and deployed an automated end-to-end data platform using Python, Google Cloud Functions, and Firestore, integrating custom ETL pipelines with a statistical scoring algorithm to transform raw API/survey data into predictive NIL financial valuations for 200+ student athletes.
+        - Designed a robust data scraping engine using Python and Pandas that optimized Apify agent usage via batch processing and smart filtering for 1500+ data points, reducing manual data collection efforts by 95% while maintaining strict schema compatibility with existing business reporting tools.
+        - Contributing to the training and deployment of a novel NIL chatbot by curating multi-source datasets and refining LLM performance, directly supporting product demonstrations that secured customer buy-in.
         """)
 
         # Job 2
@@ -32,9 +32,9 @@ def show_resume():
         st.write("May 2025 – August 2025")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        ** Cleaned and aggregated complex datasets including payroll data for over 200 employees across 12 locations. 
-	    ** Performed statistical analysis to develop data-backed job postings for 49 positions.
-	    ** Presented informative visuals and strategic recommendations to HR and Hospitality leadership, providing actionable language for job postings designed to attract top talent.
+        - Cleaned and aggregated complex datasets including payroll data for over 200 employees across 12 locations. 
+	    - Performed statistical analysis to develop data-backed job postings for 49 positions.
+	    - Presented informative visuals and strategic recommendations to HR and Hospitality leadership, providing actionable language for job postings designed to attract top talent.
         """)
         st.markdown("---")
 
@@ -43,7 +43,7 @@ def show_resume():
         st.write("October 2024 - January 2025")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        ** Managed large-scale data acquisition and database integrity for Nike Xcelerate, sourcing and normalizing thousands of data points on regional programs to build a high-accuracy market intelligence database. 
+        - Managed large-scale data acquisition and database integrity for Nike Xcelerate, sourcing and normalizing thousands of data points on regional programs to build a high-accuracy market intelligence database. 
         """)
         st.markdown("---")
         
@@ -52,8 +52,8 @@ def show_resume():
         st.write("February 2018 - August 2022")
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
-        ** Oversaw the training and evaluation of more than 100 new officials.
-	    ** Ensured the safety of players and fair enforcement of league regulations in high pressure environments, while settling disputes between coaches, parents, and other officials.
+        - Oversaw the training and evaluation of more than 100 new officials.
+	    - Ensured the safety of players and fair enforcement of league regulations in high pressure environments, while settling disputes between coaches, parents, and other officials.
         """)
         st.markdown("---")
 
@@ -62,7 +62,7 @@ def show_resume():
     # Skills Section
     st.header("Skills")
     with st.expander("Expand Skills"):
-        st.subheader("Programming Languages:")
+        st.subheader("Programming Languages")
         st.write("Python & SQL")
         
         st.subheader("Data Engineering & Cloud")

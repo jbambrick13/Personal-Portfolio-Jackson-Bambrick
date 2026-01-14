@@ -33,7 +33,11 @@ def show_resume():
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
         - Cleaned and aggregated complex datasets including payroll data for over 200 employees across 12 locations. 
+        """)
+        st.markdown("""
 	    - Performed statistical analysis to develop data-backed job postings for 49 positions.
+        """)
+        st.markdown("""
 	    - Presented informative visuals and strategic recommendations to HR and Hospitality leadership, providing actionable language for job postings designed to attract top talent.
         """)
         st.markdown("---")
@@ -53,6 +57,8 @@ def show_resume():
         st.subheader("Responsibilities & Achievements")
         st.markdown("""
         - Oversaw the training and evaluation of more than 100 new officials.
+        """)
+        st.markdown("""
 	    - Ensured the safety of players and fair enforcement of league regulations in high pressure environments, while settling disputes between coaches, parents, and other officials.
         """)
         st.markdown("---")

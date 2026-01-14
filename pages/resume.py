@@ -75,7 +75,7 @@ def show_resume():
         st.write("Google Cloud Functions, Firestore, PostgreSQL, ETL Pipeline Design, API Integration, Web Scraping, Agent Deployment, Git/Github")
         
         st.subheader("Data Science & ML")
-        st.write("Pandas, NumPy, Scikit-learn, Regression, Classification, Clustering, Hypothesis Testing, A/B Testing, Descriptive & Inferential Statistics, Experimental Design")
+        st.write("Pandas, NumPy, Predictive Modeling, Regression (Linear & Logistic), Classification, Clustering")
 
         st.subheader("Visualization & BI:")
         st.write("Tableau (Desktop & Public), Streamlit, Plotly, Seaborn, Matplotlib")

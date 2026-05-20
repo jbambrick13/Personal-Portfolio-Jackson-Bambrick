@@ -27,7 +27,7 @@ page_selection = st.sidebar.selectbox(
         "Project Central",
         "Lacrosse Championship Prediction & Visualization Project",
         "Automated Weather Data Pipeline and Dashboard",
-        "Coming Soon: ML and the NBA G.O.A.T. Project"
+        "DLA Simulation and Visualization"
     ]
 )
 

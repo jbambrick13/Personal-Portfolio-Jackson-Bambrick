@@ -7,7 +7,7 @@ from pages import resume
 from pages import project_central
 from pages import lacrosse_prediction_dashboard
 from pages import weather_project
-from pages import DLA_sim_and_viz.py
+from pages import DLA_sim_and_viz
 from pages import capstone_research
 
 # Page Configuration 

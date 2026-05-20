@@ -7,7 +7,7 @@ from pages import resume
 from pages import project_central
 from pages import lacrosse_prediction_dashboard
 from pages import weather_project
-from pages import coming_soon
+from pages import DLA_sim_and_viz.py
 from pages import capstone_research
 
 # Page Configuration 
@@ -44,6 +44,6 @@ elif page_selection == "Lacrosse Championship Prediction & Visualization Project
     lacrosse_prediction_dashboard.show_lacrosse_prediction_dashboard()
 elif page_selection == "Automated Weather Data Pipeline and Dashboard":
     weather_project.show_weather_project()
-elif page_selection == "Coming Soon: ML and the NBA G.O.A.T. Project":
-    coming_soon.show_coming_soon()
+elif page_selection == "DLA Simulation and Visualization":
+    DLA_sim_and_viz.show_DLA_sim_and_viz()
 
